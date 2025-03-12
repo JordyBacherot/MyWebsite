@@ -9,25 +9,25 @@ function Cv() {
                 {/* Bandes de MeMoving avec espacement */}
                 <div className="w-full h-full flex flex-col justify-center gap-8">
                     <div className="h-16 w-full">
-                        <MeMoving count={20} text="ME" speed="normal"/>
+                        <MeMoving count={20} text="ME" inverse={true}/>
                     </div>
                     <div className="h-16 w-full">
-                        <MeMoving count={20} text="ME" speed="slow"/>
+                        <MeMoving count={20} text="ME" inverse={false}/>
                     </div>
                     <div className="h-16 w-full">
-                        <MeMoving count={20} text="ME" speed="normal"/>
+                        <MeMoving count={20} text="ME" inverse={true}/>
                     </div>
                     <div className="h-16 w-full">
-                        <MeMoving count={20} text="ME" speed="slow"/>
+                        <MeMoving count={20} text="ME" inverse={false}/>
                     </div>
                     <div className="h-16 w-full">
-                        <MeMoving count={20} text="ME" speed="normal"/>
+                        <MeMoving count={20} text="ME" inverse={true}/>
                     </div>
                     <div className="h-16 w-full">
-                        <MeMoving count={20} text="ME" speed="slow"/>
+                        <MeMoving count={20} text="ME" inverse={false}/>
                     </div>
                     <div className="h-16 w-full">
-                        <MeMoving count={20} text="ME" speed="slow"/>
+                        <MeMoving count={20} text="ME" inverse={true}/>
                     </div>
                 </div>
             </div>

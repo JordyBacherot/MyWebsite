@@ -1,16 +1,7 @@
 import Cv from './CV/Cv'
 import Background from "./Background/Background.tsx";
-import MeMoving from "./MeMoving/MeMoving.tsx";
 
 function App() {
-    const bannerItems = [
-        'Web Dev',
-        'Web Animations',
-        'Custom Integrations',
-        'SEO',
-        'Webflow'
-    ];
-
     return (
     <>
         <Background>

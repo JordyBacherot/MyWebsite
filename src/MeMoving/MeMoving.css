@@ -1,19 +1,19 @@
-@keyframes infinite-scroll-slow {
+@keyframes infinite-scroll {
     from { transform: translateX(0); }
-    to { transform: translateX(-20%); }
+    to { transform: translateX(15%); }
 }
 
-.animate-infinite-scroll-slow {
-    animation: infinite-scroll-slow 3s linear infinite;
+.animate-infinite-scroll {
+    animation: infinite-scroll 3s linear infinite;
     animation-play-state: running; /* S'assure que l'animation est en cours d'exécution */
 }
 
-@keyframes infinite-scroll-normal {
+@keyframes infinite-scroll-inverse {
     from { transform: translateX(0); }
-    to { transform: translateX(-30%); }
+    to { transform: translateX(-15%); }
 }
 
-.animate-infinite-scroll-normal {
-    animation: infinite-scroll-normal 3s linear infinite;
+.animate-infinite-scroll-inverse {
+    animation: infinite-scroll-inverse 3s linear infinite;
     animation-play-state: running; /* S'assure que l'animation est en cours d'exécution */
 }

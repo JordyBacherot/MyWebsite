@@ -4,10 +4,10 @@ import "./MeMoving.css";
 interface MeMovingProps {
     count?: number;
     text?: string;
-    speed?: string;
+    inverse?: boolean;
 }
 
-function MeMoving({ count = 10, text = "ME", speed = "slow" }: MeMovingProps) {
+function MeMoving({ count = 10, text = "ME", inverse = false }: MeMovingProps) {
     // Référence au conteneur principal
     const containerRef = useRef<HTMLDivElement>(null);
     // Référence à la liste originale
@@ -23,7 +23,11 @@ function MeMoving({ count = 10, text = "ME", speed = "slow" }: MeMovingProps) {
     ));
 
     const getAnimationClass = () => {
-        return `animate-infinite-scroll-${speed}`;
+        if (inverse) {
+            return 'animate-infinite-scroll-inverse';
+        } else {
+            return 'animate-infinite-scroll';
+        }
     };
 
     // Effet pour cloner la liste dynamiquement
