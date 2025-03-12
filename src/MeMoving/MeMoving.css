@@ -1,0 +1,19 @@
+@keyframes infinite-scroll-slow {
+    from { transform: translateX(0); }
+    to { transform: translateX(-20%); }
+}
+
+.animate-infinite-scroll-slow {
+    animation: infinite-scroll-slow 3s linear infinite;
+    animation-play-state: running; /* S'assure que l'animation est en cours d'exécution */
+}
+
+@keyframes infinite-scroll-normal {
+    from { transform: translateX(0); }
+    to { transform: translateX(-30%); }
+}
+
+.animate-infinite-scroll-normal {
+    animation: infinite-scroll-normal 3s linear infinite;
+    animation-play-state: running; /* S'assure que l'animation est en cours d'exécution */
+}

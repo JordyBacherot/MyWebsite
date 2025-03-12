@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.color-text{
+    color: #DCDCE5;
+}
+
+@font-face {
+    font-family: 'jersey25';
+    src: url('assets/fonts/Jersey25-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-jersey25 {
+    font-family: 'jersey25', sans-serif;
+}
+
+@font-face {
+    font-family: 'rakkas';
+    src: url('assets/fonts/Rakkas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-rakkas {
+    font-family: 'rakkas', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 4rem;
+}

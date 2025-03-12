@@ -1,33 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Cv from './CV/Cv'
+import Background from "./Background/Background.tsx";
+import MeMoving from "./MeMoving/MeMoving.tsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+    const bannerItems = [
+        'Web Dev',
+        'Web Animations',
+        'Custom Integrations',
+        'SEO',
+        'Webflow'
+    ];
 
-  return (
+    return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <Background>
+            <header className="py-8 max-w-7xl mx-auto">
+                <h1 className="text-5xl font-bold color-text text-left font-rakkas">
+                    Jordy Bacherot's WebSite
+                </h1>
+            </header>
+            <div className="max-w-[1310px] mx-auto">
+                <div className="grid grid-cols-20 ">
+                    <div className="col-span-5 mr-10 mt-5">
+                        <Cv />
+                    </div>
+                    <div className="col-span-15 ml-15 mt-5 bg-amber-800">
+
+                    </div>
+
+                </div>
+            </div>
+        </Background>
     </>
   )
 }
