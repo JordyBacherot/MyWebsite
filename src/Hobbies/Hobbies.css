@@ -1,0 +1,42 @@
+@keyframes screwAnimation {
+    0% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(720deg) scale(1.2);
+        opacity: 0;
+    }
+}
+
+.animate-screw {
+    animation: screwAnimation 2s ease-in-out forwards;
+}
+
+.screw-img {
+    transition: filter 0.3s ease-out;
+}
+
+.screw-img:hover {
+    filter: contrast(1.9);
+    transform: scale(1.2);
+}
+
+@keyframes fallingAnimation {
+    0% {
+        transform: translateY(0) translateX(0);
+        rotate: 0deg;
+    }
+    10% {
+        transform: translateY(0) translateX(-3px);
+        rotate: 5deg;
+    }
+    100% {
+        transform: translateY(100vh);
+        rotate: 10deg;
+    }
+}
+
+.animate-falling {
+    animation: fallingAnimation 3s ease-in-out forwards;
+}
