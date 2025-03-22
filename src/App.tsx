@@ -2,10 +2,12 @@ import Cv from './CV/Cv'
 import Background from "./Background/Background.tsx";
 import Projects from "./Projects/Projects.tsx";
 import Hobbies from "./Hobbies/Hobbies.tsx";
+import Llm from "./Llm/Llm.tsx";
 
 function App() {
     return (
-    //     Todo : redesign mobile responsive
+    //     Todo : redesign mobile/tablet responsive
+    //     Todo : redesign LLM for mobile/tablet
     <>
         <Background>
             <header className="py-5 xl:max-w-7xl mx-auto lg:max-w-[900px]">
@@ -35,7 +37,7 @@ function App() {
                     <div className="col-start-1 col-end-21 mt-8
                     md:col-start-4 md:col-end-18 md:mt-10
                     lg:col-start-12 lg:col-end-21 lg:mt-15">
-                        <Hobbies />
+                        <Llm />
                     </div>
                 </div>
             </div>

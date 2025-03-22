@@ -5,7 +5,6 @@ function Projects() {
     const rectangleRef = useRef<HTMLDivElement>(null);
     const [balls, setBalls] = useState<JSX.Element[]>([]);
 
-
     // État pour stocker les coordonnées
     const [coordinates, setCoordinates] = useState({
         width: 0,

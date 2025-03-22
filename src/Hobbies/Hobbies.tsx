@@ -59,7 +59,7 @@ function Hobbies() {
         <div className="relative w-full h-30 rounded-2xl bg-[#CE8147] overflow-hidden">
             <div id="falling_bloc" className="absolute top-0 left-0 w-full rounded-2xl h-full cv-color-bg">
                 <div className="relative w-full h-full flex items-center justify-center z-10">
-                    <h2 className="md:text-6xl font-bold color-text font-rakkas text-5xl">Hobbies</h2>
+                    <h2 className="md:text-5xl font-bold color-text font-rakkas text-4xl">Hobbies</h2>
                 </div>
                 {drawScrew()}
             </div>

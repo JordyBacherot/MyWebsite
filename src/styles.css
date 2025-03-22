@@ -26,3 +26,8 @@
     font-family: 'rakkas', sans-serif;
     letter-spacing: 0.3rem;
 }
+
+.font-rakkas-small {
+    font-family: 'rakkas', sans-serif;
+    letter-spacing: 0.05rem;
+}
