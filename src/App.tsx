@@ -3,6 +3,7 @@ import Background from "./Background/Background.tsx";
 import Projects from "./Projects/Projects.tsx";
 import Hobbies from "./Hobbies/Hobbies.tsx";
 import Llm from "./Llm/Llm.tsx";
+import Eye from "./Eye/Eye.tsx";
 
 function App() {
     return (
@@ -41,6 +42,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            <Eye />
         </Background>
     </>
   )

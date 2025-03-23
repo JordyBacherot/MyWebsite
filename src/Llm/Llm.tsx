@@ -3,7 +3,7 @@ import "./llm.css";
 function Llm() {
     const messages = [
         "Hey, do you know AI ?",
-        "Of course! I am one 🤖",
+        "Of course! I am one !",
         "What’s AI capable of ?",
         "Oh ! Many things !",
     ];
