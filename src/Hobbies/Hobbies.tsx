@@ -46,7 +46,7 @@ function Hobbies() {
                         key={i}
                         src={screwImg}
                         alt="screw"
-                        className={`absolute ${positions[i]} w-5 h-5 z-10 screw-img`}
+                        className={`absolute ${positions[i]} lg:w-5 lg:h-5 w-4 h-4 z-10 screw-img`}
                         onClick={() => animateScrew(i)}
                     />
                 );
@@ -56,10 +56,10 @@ function Hobbies() {
     }
 
     return (
-        <div className="relative w-full h-30 rounded-2xl bg-[#CE8147] overflow-hidden">
+        <div className="relative w-full lg:h-30 h-15 md:h-20 rounded-2xl bg-[#CE8147] overflow-hidden">
             <div id="falling_bloc" className="absolute top-0 left-0 w-full rounded-2xl h-full cv-color-bg">
                 <div className="relative w-full h-full flex items-center justify-center z-10">
-                    <h2 className="md:text-5xl font-bold color-text font-rakkas text-4xl">Hobbies</h2>
+                    <h2 className="lg:text-5xl font-bold color-text font-rakkas text-4xl">Hobbies</h2>
                 </div>
                 {drawScrew()}
             </div>

@@ -3,10 +3,10 @@ import MeMoving from "../MeMoving/MeMoving.tsx";
 
 function Cv() {
     return (
-        <div className="relative w-full h-70 rounded-2xl cv-color-bg overflow-hidden
+        <div className="relative w-full h-100 rounded-2xl cv-color-bg overflow-hidden
         xl:h-100
         lg:h-85
-        md:h-80 ">
+        md:h-110 ">
             {/* Container avec rotation */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200%] h-[200%] -rotate-25 z-0">
                 {/* Bandes de MeMoving avec espacement */}

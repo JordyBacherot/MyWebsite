@@ -149,6 +149,7 @@ function Projects() {
         <div className="relative w-full bg-[#F0F0F0] rounded-2xl h-50
         xl:h-75
         lg:h-65
+        md:h-95
         sm:h-80">
             <div className="relative w-full h-full">
                 {balls}
