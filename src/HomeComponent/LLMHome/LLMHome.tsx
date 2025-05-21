@@ -1,6 +1,6 @@
-import "./llm.css";
+import "./LLMHome.css";
 
-function Llm() {
+function LLMHome() {
     const messages = [
         "Hey, do you know AI ?",
         "Of course! I am one !",
@@ -29,4 +29,4 @@ function Llm() {
     );
 }
 
-export default Llm;
+export default LLMHome;

@@ -1,7 +1,8 @@
 import React, {useRef, useState, useEffect, JSX} from 'react';
-import "./Projects.css";
+import "./ProjectsHome.css";
+import {useNavigate} from "react-router";
 
-function Projects() {
+function ProjectsHome() {
     const rectangleRef = useRef<HTMLDivElement>(null);
     const [balls, setBalls] = useState<JSX.Element[]>([]);
 
@@ -146,7 +147,7 @@ function Projects() {
     }, []); // L'array vide assure que la fonction ne se lance qu'une seule fois
 
     return (
-        <div className="relative w-full bg-[#F0F0F0] rounded-2xl h-50
+        <button className="relative w-full bg-[#F0F0F0] rounded-2xl h-50
         xl:h-75
         lg:h-65
         md:h-95
@@ -162,8 +163,8 @@ function Projects() {
                     </div>
                 </div>
             </div>
-        </div>
+        </button>
     );
 }
 
-export default Projects;
+export default ProjectsHome;

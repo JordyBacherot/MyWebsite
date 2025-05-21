@@ -1,12 +1,14 @@
-import './Cv.css'
+import './CvHome.css'
 import MeMoving from "../MeMoving/MeMoving.tsx";
+import { useNavigate } from "react-router";
 
-function Cv() {
+function CvHome() {
     return (
         <div className="relative w-full h-100 rounded-2xl cv-color-bg overflow-hidden
         xl:h-100
         lg:h-85
-        md:h-110 ">
+        md:h-110"
+        >
             {/* Container avec rotation */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200%] h-[200%] -rotate-25 z-0">
                 {/* Bandes de MeMoving avec espacement */}
@@ -35,7 +37,7 @@ function Cv() {
                 </div>
             </div>
 
-            {/* CV text overlay */}
+            {/* CVHome text overlay */}
             <div className="relative w-full h-full flex items-center justify-center z-10">
                 <h2 className="md:text-6xl font-bold color-text font-rakkas text-5xl">CV</h2>
             </div>
@@ -43,4 +45,4 @@ function Cv() {
     );
 }
 
-export default Cv
+export default CvHome

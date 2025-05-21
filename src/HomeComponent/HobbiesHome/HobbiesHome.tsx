@@ -1,8 +1,8 @@
-import './Hobbies.css';
+import './HobbiesHome.css';
 import { useState } from 'react';
-import screwImg from '../assets/img/screw.svg';
+import screwImg from '../../assets/img/screw.svg';
 
-function Hobbies() {
+function HobbiesHome() {
     const [screwState, setScrewState] = useState([true, true, true, true]);
 
     const positions = [
@@ -67,4 +67,4 @@ function Hobbies() {
     );
 }
 
-export default Hobbies;
+export default HobbiesHome;
