@@ -1,4 +1,4 @@
-import CvHome from '../HomeComponent/CVHome/CVHome.tsx';
+import CvHome from "../HomeComponent/CVHome/CvHome.tsx";
 import Background from "../HomeComponent/Background/Background.tsx";
 import ProjectsHome from "../HomeComponent/ProjectsHome/ProjectsHome.tsx";
 import HobbiesHome from "../HomeComponent/HobbiesHome/HobbiesHome.tsx";
